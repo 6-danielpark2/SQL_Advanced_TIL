@@ -66,7 +66,7 @@ Excel
 
 <!-- 이번 챕터는 개념정리 없이 MySQL 설치 후 인증사진으로 대체합니다. -->
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 
 ## 3. 건물을 짓기 위한 설계도: 데이터베이스 모델링

@@ -55,7 +55,7 @@ CONVERT() / DATA() / CAST() / MOVE() / TYPE() / SUM() / AVG() / CURRENT_DATE()
 ```
 
 ```
-여기에 답을 적어주세요!
+CONVERT() / CAST()
 ```
 
 
@@ -81,7 +81,7 @@ SELECT DISTINCT M.mem_id, B.prod_name, M.mem_name, M.addr
 4. WHERE B.prod_name IS NULL
 ```
 ```
-여기에 답과 그 이유를 적어주세요!
+4. WHERE B.prod_name IS NULL / 1번은 문법이 이상하고 2번의 LIMIT은 행 개수를 제한하는 문법이고 3번의 HAVING은 보통 그룹화 후 조건에 사용하는 보기이기에 틀림, 4번만이 회원은 있는데 구매 기록 없는 사람 찾는 구문
 ```
 
 ## 3. SQL 프로그래밍 
@@ -106,8 +106,8 @@ WHEN / THEN / CURRENT / DATE / TIME / IF / END IF / CASE
 
 ```
 여기에 답을 적어주세요!
-(1)
-(2) 
+(1) WHEN
+(2) CASE
 ```
 
 

@@ -174,22 +174,33 @@ INSERT INTO orders VALUES
    - orders 테이블의 `order_date_str`을 DATE 형식으로 변환하여 조회하시오.
    (힌트: STR_TO_DATE 사용)
 
+   ![alt text](image-2.png)
+
 2. **데이터 형식 변환**
    - orders 테이블의 `amount_str`을 숫자형으로 변환하여 조회하시오.
+
+   ![alt text](image-3.png)
 
 3. **내부 조인 (INNER JOIN)**
    - customers와 orders를 customer_id 기준으로 내부 조인하여
      고객 이름(name)과 주문 번호(order_id)를 함께 조회하시오.
 
+  ![alt text](image-4.png)
+
 4. **외부 조인 (LEFT JOIN)**
    - customers를 기준으로 LEFT JOIN을 수행하여,
      주문이 없는 고객도 함께 조회하시오.
+
+  ![alt text](image-5.png)
 
 5. **스토어드 프로시저 (IF문 사용)**
    - 입력받은 금액이 10000 이상이면 '고액 주문',
      그렇지 않으면 '일반 주문'을 출력하는
      프로시저를 생성하시오.
    - 생성 후 CALL로 실행 결과를 확인하시오.
+
+  ![alt text](image-7.png)
+  ![alt text](image-8.png)
 
 
 <!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
